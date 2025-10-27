@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Run Current TS File",
+      "runtimeExecutable": "${env:HOME}/.nvm/versions/node/v23.9.0/bin/npx",
+      "runtimeArgs": ["ts-node-dev"],
+      "args": ["${file}"],
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
